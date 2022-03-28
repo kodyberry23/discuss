@@ -31,8 +31,17 @@
 }
 .invalid-feedback {
   color: #a94442;
+  text-transform: capitalize;
+  font-size: 1.25rem;
   display: block;
+  position: absolute;
+  top: 4rem;
   margin: -1rem 0 2rem;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 3rem;
 }
 
 /* LiveView specific classes for your customization */
